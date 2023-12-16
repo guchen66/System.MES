@@ -1,0 +1,7 @@
+{
+  "ConnectionStrings": {
+    "DbType": "MSSQL",
+    "Data Source": "Server=.;Database=CargoDB;user ID=sa;Password=211314;"
+
+  }
+}

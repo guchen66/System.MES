@@ -1,0 +1,15 @@
+﻿global using Prism.Events;
+global using Prism.Ioc;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Prism.Commands;
+global using Prism.Mvvm;
+global using System.MES.Shared.Commands;
+global using System.Windows;
+global using System.Windows.Input;
+global using Newtonsoft.Json;
+global using System.Collections.ObjectModel;
+global using System.IO;

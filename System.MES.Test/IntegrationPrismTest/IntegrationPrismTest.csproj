@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Furion" Version="4.8.8.48" />
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="xunit.core" Version="2.5.3" />
+  </ItemGroup>
+
+</Project>

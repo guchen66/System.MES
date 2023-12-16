@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.MES", "System.MES\System.MES.csproj", "{968D0187-C2C6-4A72-A1C0-427924BB486F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.MES.Shared", "System.MES.Shared\System.MES.Shared.csproj", "{08AF4F34-E7D5-4B23-9535-1B9163073FD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.MES.Api", "System.MES.Api\System.MES.Api.csproj", "{6DDFDB3F-5E65-4746-8628-3967BE05B01F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.MES.Theme", "System.MES.Theme\System.MES.Theme.csproj", "{8EE86DA8-04C0-44D3-89F9-452152ADC808}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.MES.Core", "System.MES.Core\System.MES.Core.csproj", "{95389E0A-14E8-4DB7-916E-BAF65B6D4875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System.MES.Test", "System.MES.Test", "{0421332B-C929-45A0-ACDE-9741935ADA14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System.MES.DB", "System.MES.DB", "{F02707B8-EA2E-479A-9C30-7198723F9131}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationPrismTest", "System.MES.Test\IntegrationPrismTest\IntegrationPrismTest.csproj", "{EB2CE8F8-7D79-4381-A864-49B5BA2BD926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlSugarDB", "System.MES.DB\SqlSugarDB\SqlSugarDB.csproj", "{C883C291-4B96-4E72-9843-AF9BD23B49C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.MES.Utils", "System.MES.Utils\System.MES.Utils.csproj", "{1EFB6BDA-C310-4356-A95D-9FA28A85C872}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{2F9A9313-F724-4493-ABA4-A7A9A07B99F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.MES.Modules.Group", "Apps\System.MES.Modules.Group\System.MES.Modules.Group.csproj", "{F8CFE776-EA75-47F8-A97B-B3E7F1CB62C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.MES.Wpf", "System.MES.Wpf\System.MES.Wpf.csproj", "{4E8C3CF5-2B36-44CB-8F9E-C38B2D17C06B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{968D0187-C2C6-4A72-A1C0-427924BB486F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968D0187-C2C6-4A72-A1C0-427924BB486F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968D0187-C2C6-4A72-A1C0-427924BB486F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968D0187-C2C6-4A72-A1C0-427924BB486F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08AF4F34-E7D5-4B23-9535-1B9163073FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AF4F34-E7D5-4B23-9535-1B9163073FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AF4F34-E7D5-4B23-9535-1B9163073FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AF4F34-E7D5-4B23-9535-1B9163073FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDFDB3F-5E65-4746-8628-3967BE05B01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDFDB3F-5E65-4746-8628-3967BE05B01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDFDB3F-5E65-4746-8628-3967BE05B01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDFDB3F-5E65-4746-8628-3967BE05B01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE86DA8-04C0-44D3-89F9-452152ADC808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE86DA8-04C0-44D3-89F9-452152ADC808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE86DA8-04C0-44D3-89F9-452152ADC808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE86DA8-04C0-44D3-89F9-452152ADC808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95389E0A-14E8-4DB7-916E-BAF65B6D4875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95389E0A-14E8-4DB7-916E-BAF65B6D4875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95389E0A-14E8-4DB7-916E-BAF65B6D4875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95389E0A-14E8-4DB7-916E-BAF65B6D4875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2CE8F8-7D79-4381-A864-49B5BA2BD926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2CE8F8-7D79-4381-A864-49B5BA2BD926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2CE8F8-7D79-4381-A864-49B5BA2BD926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2CE8F8-7D79-4381-A864-49B5BA2BD926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C883C291-4B96-4E72-9843-AF9BD23B49C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C883C291-4B96-4E72-9843-AF9BD23B49C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C883C291-4B96-4E72-9843-AF9BD23B49C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C883C291-4B96-4E72-9843-AF9BD23B49C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFB6BDA-C310-4356-A95D-9FA28A85C872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFB6BDA-C310-4356-A95D-9FA28A85C872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFB6BDA-C310-4356-A95D-9FA28A85C872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFB6BDA-C310-4356-A95D-9FA28A85C872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CFE776-EA75-47F8-A97B-B3E7F1CB62C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CFE776-EA75-47F8-A97B-B3E7F1CB62C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CFE776-EA75-47F8-A97B-B3E7F1CB62C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CFE776-EA75-47F8-A97B-B3E7F1CB62C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E8C3CF5-2B36-44CB-8F9E-C38B2D17C06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8C3CF5-2B36-44CB-8F9E-C38B2D17C06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8C3CF5-2B36-44CB-8F9E-C38B2D17C06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8C3CF5-2B36-44CB-8F9E-C38B2D17C06B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB2CE8F8-7D79-4381-A864-49B5BA2BD926} = {0421332B-C929-45A0-ACDE-9741935ADA14}
+		{C883C291-4B96-4E72-9843-AF9BD23B49C0} = {F02707B8-EA2E-479A-9C30-7198723F9131}
+		{F8CFE776-EA75-47F8-A97B-B3E7F1CB62C2} = {2F9A9313-F724-4493-ABA4-A7A9A07B99F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4037772-92FE-490A-81C8-BB5BBBB3B18E}
+	EndGlobalSection
+EndGlobal

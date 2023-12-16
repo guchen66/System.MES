@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	<ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="Assets\Images\login.jpg" />
+    <None Remove="Assets\Images\user.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.1.0" />
+    <PackageReference Include="Furion" Version="4.8.8.48" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+    <PackageReference Include="Unity" Version="5.11.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Apps\System.MES.Modules.Group\System.MES.Modules.Group.csproj" />
+    <ProjectReference Include="..\System.MES.DB\SqlSugarDB\SqlSugarDB.csproj" />
+    <ProjectReference Include="..\System.MES.Shared\System.MES.Shared.csproj" />
+    <ProjectReference Include="..\System.MES.Test\IntegrationPrismTest\IntegrationPrismTest.csproj" />
+    <ProjectReference Include="..\System.MES.Theme\System.MES.Theme.csproj" />
+    <ProjectReference Include="..\System.MES.Wpf\System.MES.Wpf.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\login.jpg" />
+    <Resource Include="Assets\Images\user.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>
